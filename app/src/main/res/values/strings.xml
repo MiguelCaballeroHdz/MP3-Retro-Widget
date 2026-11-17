@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MP3 Retro Widget</string>
+
+    <!-- LCD -->
+    <string name="lcd_no_disc">SIN MÚSICA</string>
+    <string name="time_suffix_empty"> / 0:00</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_subtitle">MP3 Retro Widget</string>
+    <string name="widget_list_title">Tus widgets</string>
+    <string name="widget_list_empty">Todavía no hay ningún widget en la pantalla.\nMantén presionado el escritorio › Widgets › MP3 Retro Widget.</string>
+    <string name="widget_row_edit">Elegir skin</string>
+    <string name="widget_row_name">Widget %1$d · %2$s</string>
+    <string name="add_widget">Añadir widget a la pantalla</string>
+    <string name="add_widget_manual">Mantén presionado el escritorio › Widgets › MP3 Retro Widget.</string>
+    <string name="add_widget_unsupported">Este launcher no permite añadir el widget desde aquí.</string>
+
+    <!-- Skin picker -->
+    <string name="configure_title">Elige tu skin</string>
+    <string name="configure_skin_label">7 estilos verticales 2x4</string>
+    <string name="skin_oval">ORANGE</string>
+    <string name="skin_brick">BRICK · Azul grisáceo, pantalla verde</string>
+    <string name="skin_swivel_white">SWIVEL WHITE · Blanco y naranja</string>
+    <string name="skin_black2008">BLACK 2008 · Negro mate, LCD azul</string>
+    <string name="skin_swivel_orange">SWIVEL NARANJA · Gris y rojo-naranja</string>
+    <string name="skin_slider">SLIDER · Negro brillante, fijo</string>
+    <string name="skin_flip">FLIP · Plateado y negro, abierto</string>
+    <string name="configure_save">Guardar</string>
+    <string name="configure_close">Cerrar</string>
+    <string name="configure_open_settings">Ajustes de la app</string>
+
+    <!-- Photo -->
+    <string name="photo_title">Personalizar</string>
+    <string name="photo_pick">Usar mi foto</string>
+    <string name="photo_none">Elige una foto: se recorta al cuerpo del widget, sin tapar la pantalla ni los botones.</string>
+    <string name="photo_active">Foto aplicada al cuerpo del widget.</string>
+    <string name="photo_clear">Quitar foto</string>
+    <string name="photo_brightness">Brillo</string>
+    <string name="photo_darken">Oscurecer</string>
+    <string name="photo_pick_error">No se pudo abrir esa imagen.</string>
+
+    <!-- Notification access -->
+    <string name="notifications_button">Dar acceso a notificaciones</string>
+    <string name="notifications_granted">Acceso a notificaciones activo: la pantalla mostrará la canción.</string>
+    <string name="notifications_missing">Sin acceso a notificaciones: los botones funcionan, pero la pantalla no verá la canción.</string>
+
+    <!-- Hide from drawer -->
+    <string name="hide_title">Ocultar app del cajón</string>
+    <string name="hide_summary">La app sigue instalada y visible en Ajustes › Aplicaciones.</string>
+    <string name="hide_warning">Para volver a abrir, deja picado el widget y dale en Ajustes.</string>
+    <string name="hide_confirm">Ocultar</string>
+    <string name="hide_cancel">Cancelar</string>
+    <string name="hide_on">Oculta del cajón. Para abrirla: deja picado el widget › Ajustes.</string>
+    <string name="hide_off">Visible en el cajón de apps.</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_title">Cómo se usa</string>
+    <string name="tutorial_text">Botón central: Play / Pausa.\nDoble toque al botón central: aleatorio (shuffle).\nBotón izquierdo: canción anterior.\nBotón derecho: canción siguiente.\nToca la pantalla: abre la app de música.</string>
+
+    <!-- Crop -->
+    <string name="crop_title">Acomoda tu foto</string>
+    <string name="crop_hint">Pellizca para zoom y arrastra para mover</string>
+    <string name="crop_use">Usar</string>
+    <string name="crop_cancel">Cancelar</string>
+
+    <!-- Widget metadata / accessibility -->
+    <string name="widget_description">Reproductor MP3 retro con 7 estilos verticales.</string>
+    <string name="cd_play_pause">Play / Pausa</string>
+    <string name="cd_prev">Canción anterior</string>
+    <string name="cd_next">Canción siguiente</string>
+</resources>

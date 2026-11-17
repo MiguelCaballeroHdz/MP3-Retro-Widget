@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LCD fill for the ORANGE skin, sampled from the exact artwork (#C0512B). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#C0512B" />
+    <corners android:radius="1dp" />
+</shape>

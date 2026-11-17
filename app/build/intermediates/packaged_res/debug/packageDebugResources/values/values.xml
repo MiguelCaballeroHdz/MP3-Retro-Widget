@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lcd_text_dark">#3B1F00</color>
+    <color name="lcd_text_darkest">#333333</color>
+    <color name="skin1_body">#C0C0C0</color>
+    <color name="skin1_lcd">#FFB74D</color>
+    <color name="skin2_body">#2C3E50</color>
+    <color name="skin2_lcd">#FFB74D</color>
+    <color name="skin3_body">#F8BBD9</color>
+    <color name="skin3_lcd">#FFF176</color>
+    <color name="skin4_body">#212121</color>
+    <color name="skin4_lcd">#81C784</color>
+    <dimen name="hitbox_size">60dp</dimen>
+    <dimen name="lcd_height">46dp</dimen>
+    <dimen name="play_wheel_size">48dp</dimen>
+    <dimen name="side_button_size">40dp</dimen>
+    <dimen name="widget_min_height">110dp</dimen>
+    <dimen name="widget_min_width">300dp</dimen>
+    <string name="add_widget">Añadir widget a la pantalla</string>
+    <string name="add_widget_manual">Mantén presionado el escritorio › Widgets › MP3 Retro Widget.</string>
+    <string name="add_widget_unsupported">Este launcher no permite añadir el widget desde aquí.</string>
+    <string name="app_name">MP3 Retro Widget</string>
+    <string name="cd_next">Canción siguiente</string>
+    <string name="cd_play_pause">Play / Pausa</string>
+    <string name="cd_prev">Canción anterior</string>
+    <string name="configure_close">Cerrar</string>
+    <string name="configure_open_settings">Ajustes de la app</string>
+    <string name="configure_save">Guardar</string>
+    <string name="configure_skin_label">7 estilos verticales 2x4</string>
+    <string name="configure_title">Elige tu skin</string>
+    <string name="crop_cancel">Cancelar</string>
+    <string name="crop_hint">Pellizca para zoom y arrastra para mover</string>
+    <string name="crop_title">Acomoda tu foto</string>
+    <string name="crop_use">Usar</string>
+    <string name="hide_cancel">Cancelar</string>
+    <string name="hide_confirm">Ocultar</string>
+    <string name="hide_off">Visible en el cajón de apps.</string>
+    <string name="hide_on">Oculta del cajón. Para abrirla: deja picado el widget › Ajustes.</string>
+    <string name="hide_summary">La app sigue instalada y visible en Ajustes › Aplicaciones.</string>
+    <string name="hide_title">Ocultar app del cajón</string>
+    <string name="hide_warning">Para volver a abrir, deja picado el widget y dale en Ajustes.</string>
+    <string name="lcd_no_disc">SIN MÚSICA</string>
+    <string name="notifications_button">Dar acceso a notificaciones</string>
+    <string name="notifications_granted">Acceso a notificaciones activo: la pantalla mostrará la canción.</string>
+    <string name="notifications_missing">Sin acceso a notificaciones: los botones funcionan, pero la pantalla no verá la canción.</string>
+    <string name="photo_active">Foto aplicada al cuerpo del widget.</string>
+    <string name="photo_brightness">Brillo</string>
+    <string name="photo_clear">Quitar foto</string>
+    <string name="photo_darken">Oscurecer</string>
+    <string name="photo_none">Elige una foto: se recorta al cuerpo del widget, sin tapar la pantalla ni los botones.</string>
+    <string name="photo_pick">Usar mi foto</string>
+    <string name="photo_pick_error">No se pudo abrir esa imagen.</string>
+    <string name="photo_title">Personalizar</string>
+    <string name="settings_subtitle">MP3 Retro Widget</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="skin_black2008">BLACK 2008 · Negro mate, LCD azul</string>
+    <string name="skin_brick">BRICK · Azul grisáceo, pantalla verde</string>
+    <string name="skin_flip">FLIP · Plateado y negro, abierto</string>
+    <string name="skin_oval">ORANGE</string>
+    <string name="skin_slider">SLIDER · Negro brillante, fijo</string>
+    <string name="skin_swivel_orange">SWIVEL NARANJA · Gris y rojo-naranja</string>
+    <string name="skin_swivel_white">SWIVEL WHITE · Blanco y naranja</string>
+    <string name="time_suffix_empty"> / 0:00</string>
+    <string name="tutorial_text">Botón central: Play / Pausa.\nDoble toque al botón central: aleatorio (shuffle).\nBotón izquierdo: canción anterior.\nBotón derecho: canción siguiente.\nToca la pantalla: abre la app de música.</string>
+    <string name="tutorial_title">Cómo se usa</string>
+    <string name="widget_description">Reproductor MP3 retro con 7 estilos verticales.</string>
+    <string name="widget_list_empty">Todavía no hay ningún widget en la pantalla.\nMantén presionado el escritorio › Widgets › MP3 Retro Widget.</string>
+    <string name="widget_list_title">Tus widgets</string>
+    <string name="widget_row_edit">Elegir skin</string>
+    <string name="widget_row_name">Widget %1$d · %2$s</string>
+    <style name="SettingsHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">26dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.MP3Retro" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#1B1B1B</item>
+        <item name="android:colorAccent">#FF9800</item>
+        <item name="android:windowBackground">#101010</item>
+    </style>
+    <style name="Theme.MP3Retro.NoTitleBar" parent="Theme.MP3Retro">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MP3Retro.Translucent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

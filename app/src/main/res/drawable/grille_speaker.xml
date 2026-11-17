@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BRICK: single speaker grille to the right of the only screen. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="200dp"
+    android:viewportWidth="40"
+    android:viewportHeight="200">
+    <path
+        android:fillColor="#1B242C"
+        android:pathData="M4,0h32a4,4 0 0 1 4,4v192a4,4 0 0 1 -4,4h-32a4,4 0 0 1 -4,-4v-192a4,4 0 0 1 4,-4z" />
+    <path
+        android:fillColor="#0A1015"
+        android:pathData="M9,18h22v7h-22zM9,38h22v7h-22zM9,58h22v7h-22zM9,78h22v7h-22zM9,98h22v7h-22zM9,118h22v7h-22zM9,138h22v7h-22zM9,158h22v7h-22zM9,178h22v7h-22z" />
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Widget size: 4x2 cells -->
+    <dimen name="widget_min_width">300dp</dimen>
+    <dimen name="widget_min_height">110dp</dimen>
+
+    <!-- Touch targets -->
+    <dimen name="hitbox_size">60dp</dimen>
+    <dimen name="play_wheel_size">48dp</dimen>
+    <dimen name="side_button_size">40dp</dimen>
+    <dimen name="lcd_height">46dp</dimen>
+</resources>

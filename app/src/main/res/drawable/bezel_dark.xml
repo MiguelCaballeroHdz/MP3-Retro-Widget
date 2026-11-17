@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Screen bezel: black inset frame. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#2A2A2E"
+                android:centerColor="#101012"
+                android:endColor="#030304" />
+            <stroke
+                android:width="1dp"
+                android:color="#3A3A40" />
+        </shape>
+    </item>
+</layer-list>

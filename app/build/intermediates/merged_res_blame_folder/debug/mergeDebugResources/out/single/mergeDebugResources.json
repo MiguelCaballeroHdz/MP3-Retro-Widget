@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_widget_small.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_widget_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_metal_circle.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_metal_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bg_usb_cap.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bg_usb_cap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_brick.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_brick.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_swivel_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_swivel_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_screen_pixels.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\screen_pixels.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_metal_rounded.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_metal_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_prev.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_prev.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_cream_center.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_cream_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_flip.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_flip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable-nodpi_skin_orange_photo_mask.png.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable-nodpi\\skin_orange_photo_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_play.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_progress_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\progress_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable-nodpi_skin_orange_note.png.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable-nodpi\\skin_orange_note.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_note.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_gray.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_accent_red.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\accent_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_oval.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_oval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_pad_white.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\pad_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_usb.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_usb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_oval.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_oval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\xml_widget_provider_info.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\xml\\widget_provider_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_pause.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_slider.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_grille_speaker.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\grille_speaker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_steel_center.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_steel_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\layout_activity_configure.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\layout\\activity_configure.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_swivel_white.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_swivel_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_silver_side.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_silver_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_progress_bar.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\layout_widget_layout.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_silver_center.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_silver_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bezel_silver.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bezel_silver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_pad_silver.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\pad_silver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bg_usb_body_black.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bg_usb_body_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_next.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\layout_widget_orange_layout.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\layout\\widget_orange_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_slider.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_pad_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\pad_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_pad_steel.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\pad_steel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_steel_side.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_steel_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_cream_side.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_cream_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_slider_metal.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\slider_metal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_dots_row.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\dots_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bg_usb_body.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bg_usb_body.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_black2008.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_black2008.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_pad_black.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\pad_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_swivel_white.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_swivel_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_jack_hole.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\jack_hole.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_orange_side.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_orange_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bg_usb_body_blue.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bg_usb_body_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_usb_cap_groove.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\usb_cap_groove.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_black2008.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_black2008.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable-nodpi_skin_orange_body.png.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable-nodpi\\skin_orange_body.png"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_circle_dots.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\circle_dots.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_oval_black_background.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\oval_black_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_brick.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_brick.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_orange_center.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_orange_center.xml"
+    },
+    {
+        "merged": "com.example.mp3retrowidget.app-debug-4:/xml_widget_provider_info.xml.flat",
+        "source": "com.example.mp3retrowidget.app-main-6:/xml/widget_provider_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\layout_activity_crop.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\layout\\activity_crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_dark_center.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_dark_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_btn_dark_side.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\btn_dark_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bg_usb_body_pink.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bg_usb_body_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_slider_groove.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\slider_groove.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_decor_tab_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\decor_tab_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_swivel_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_swivel_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_body_flip.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\body_flip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_bezel_dark.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\bezel_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_orange_dynamic.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_orange_dynamic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_green.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_lcd_yellow.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\lcd_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_decor_tab_silver.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\decor_tab_silver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_accent_orange.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\accent_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_ic_headphone.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\ic_headphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_hinge_line.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\hinge_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-debug-4:\\drawable_keyring_hole.xml.flat",
+        "source": "C:\\Users\\Miguel Caballero\\.gradle\\daemon\\8.13\\com.example.mp3retrowidget.app-main-6:\\drawable\\keyring_hole.xml"
+    }
+]

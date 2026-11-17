@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:2:1-98:12
+	package
+		INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BIND_APPWIDGET
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:6:5-73
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:6:22-70
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:10:9-64
+application
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:13:5-96:19
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:13:5-96:19
+	android:extractNativeLibs
+		INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+	android:supportsRtl
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:18:9-46
+receiver#com.example.mp3retrowidget.MP3WidgetProvider
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:21:9-33:20
+	android:label
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:24:13-45
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:22:13-46
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:26:17-84
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:26:25-81
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:27:17-84
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:27:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:30:13-32:64
+	android:resource
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:32:17-61
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:31:17-58
+activity#com.example.mp3retrowidget.WidgetConfigureActivity
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:39:13-36
+	android:theme
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:41:13-61
+	android:taskAffinity
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:38:13-52
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:42:13-44:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:43:17-87
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:43:25-84
+activity#com.example.mp3retrowidget.MainActivity
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:49:9-52:48
+	android:label
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:52:13-45
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:50:13-41
+activity-alias#com.example.mp3retrowidget.LauncherAlias
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:55:9-66:26
+	android:enabled
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:57:13-35
+	android:label
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:60:13-45
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:58:13-36
+	android:targetActivity
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:61:13-51
+	android:icon
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:56:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:62:13-65:29
+action#android.intent.action.MAIN
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:63:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:64:17-77
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:64:27-74
+activity#com.example.mp3retrowidget.CropActivity
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:69:9-73:64
+	android:screenOrientation
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:72:13-49
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:71:13-37
+	android:theme
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:73:13-61
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:70:13-41
+activity#com.example.mp3retrowidget.OpenMusicActivity
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:76:9-81:65
+	android:excludeFromRecents
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:78:13-46
+	android:noHistory
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:80:13-37
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:79:13-37
+	android:theme
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:81:13-62
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:77:13-46
+service#com.example.mp3retrowidget.MediaNotificationListener
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:86:9-94:19
+	android:label
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:89:13-45
+	android:exported
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:88:13-36
+	android:permission
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:90:13-87
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:87:13-54
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:91:13-93:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:92:17-99
+	android:name
+		ADDED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:92:25-96
+uses-sdk
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml

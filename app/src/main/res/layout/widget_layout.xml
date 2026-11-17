@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MP3 RETRO WIDGET - vertical 2x4 body.
+     One single RemoteViews-safe layout for the 7 skins: the provider swaps the
+     body / keypad / bezel / LCD / button drawables and the text colours.
+
+     Layer order (bottom to top):
+       body background  ->  user photo  ->  structural decor  ->  screen  ->  keys
+     The photo therefore covers ONLY the body: the screen frame and the three
+     buttons are painted on top of it. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/body_oval">
+
+    <!-- ================= USER PHOTO (body finish) ================= -->
+    <ImageView
+        android:id="@+id/widget_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <!-- Side accent bands (orange / red shells) -->
+    <ImageView
+        android:id="@+id/accent_left"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/accent_orange"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/accent_right"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/accent_orange"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+    <!-- SLIDER: fixed groove on the right edge -->
+    <ImageView
+        android:id="@+id/slider_groove"
+        android:layout_width="9dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/slider_groove"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <!-- Skin tab (OVAL / SWIVEL WHITE only) -->
+        <FrameLayout
+            android:id="@+id/top_decor"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/decor_tab_silver"
+            android:visibility="gone" />
+
+        <!-- ================= SCREEN ================= -->
+        <LinearLayout
+            android:id="@+id/screen_row"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/screen_unit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/screen_bezel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bezel_silver"
+                    android:contentDescription="@null" />
+
+                <FrameLayout
+                    android:id="@+id/screen_inner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/lcd_oval">
+
+                    <ImageView
+                        android:id="@+id/screen_pixels"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/screen_pixels"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="7dp">
+
+                        <!-- note + song title -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/ic_note"
+                                android:layout_width="11dp"
+                                android:layout_height="11dp"
+                                android:layout_marginEnd="5dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/ic_note" />
+
+                            <TextView
+                                android:id="@+id/txt_title"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:includeFontPadding="false"
+                                android:maxLines="1"
+                                android:text="@string/lcd_no_disc"
+                                android:textColor="#3A1A00"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <ProgressBar
+                            android:id="@+id/progress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="7dp"
+                            android:indeterminate="false"
+                            android:max="1000"
+                            android:progress="0"
+                            android:progressBackgroundTint="#00000000"
+                            android:progressDrawable="@drawable/progress_bar"
+                            android:progressTint="#FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:gravity="end"
+                            android:orientation="horizontal">
+
+                            <Chronometer
+                                android:id="@+id/chrono"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:format="%s"
+                                android:includeFontPadding="false"
+                                android:textColor="#4A2200"
+                                android:textSize="9sp" />
+
+                            <TextView
+                                android:id="@+id/txt_time_suffix"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:includeFontPadding="false"
+                                android:text="@string/time_suffix_empty"
+                                android:textColor="#4A2200"
+                                android:textSize="9sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+
+            <!-- BRICK: its only screen stays on the left, grille on the right -->
+            <ImageView
+                android:id="@+id/grille"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/grille_speaker"
+                android:contentDescription="@null"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- FLIP: hinge -->
+        <ImageView
+            android:id="@+id/hinge"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/hinge_line"
+            android:contentDescription="@null"
+            android:visibility="gone" />
+
+        <!-- ================= KEYPAD ================= -->
+        <FrameLayout
+            android:id="@+id/control_area"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/pad_silver">
+
+            <FrameLayout
+                android:id="@+id/btn_prev"
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_silver_side"
+                android:contentDescription="@string/cd_prev">
+
+                <ImageView
+                    android:id="@+id/ic_prev"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_prev" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/btn_play_container"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_silver_center"
+                android:contentDescription="@string/cd_play_pause">
+
+                <ImageView
+                    android:id="@+id/btn_play"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_play" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/btn_next"
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="2dp"
+                android:background="@drawable/btn_silver_side"
+                android:contentDescription="@string/cd_next">
+
+                <ImageView
+                    android:id="@+id/ic_next"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_next" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

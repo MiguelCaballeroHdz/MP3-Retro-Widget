@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mp3retrowidget"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!--
+12         These are declared so the app can be granted media control on ROMs that
+13         expose them; on stock Android they are simply ignored.
+14    -->
+15    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+15-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:6:5-73
+15-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:6:22-70
+16    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+16-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:7:5-80
+16-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+17-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:8:5-75
+17-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:8:22-72
+18    <uses-permission
+18-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:9:5-11:38
+19        android:name="android.permission.READ_EXTERNAL_STORAGE"
+19-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:10:9-64
+20        android:maxSdkVersion="32" />
+20-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:11:9-35
+21
+22    <application
+22-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:13:5-96:19
+23        android:allowBackup="true"
+23-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:14:9-35
+24        android:debuggable="true"
+25        android:extractNativeLibs="true"
+26        android:icon="@drawable/ic_launcher"
+26-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:15:9-45
+27        android:label="@string/app_name"
+27-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:16:9-41
+28        android:supportsRtl="true"
+28-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:17:9-35
+29        android:theme="@style/Theme.MP3Retro" >
+29-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:18:9-46
+30
+31        <!-- Widget provider -->
+32        <receiver
+32-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:21:9-33:20
+33            android:name="com.example.mp3retrowidget.MP3WidgetProvider"
+33-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:22:13-46
+34            android:exported="true"
+34-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:23:13-36
+35            android:label="@string/app_name" >
+35-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:24:13-45
+36            <intent-filter>
+36-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:25:13-28:29
+37                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+37-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:26:17-84
+37-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:26:25-81
+38                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+38-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:27:17-84
+38-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:27:25-81
+39            </intent-filter>
+40
+41            <meta-data
+41-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:30:13-32:64
+42                android:name="android.appwidget.provider"
+42-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:31:17-58
+43                android:resource="@xml/widget_provider_info" />
+43-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:32:17-61
+44        </receiver>
+45
+46        <!--
+47             Skin selector + photo, shown when the widget is placed and when the
+48             user long-presses the widget and taps "Ajustes".
+49        -->
+50        <activity
+50-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:37:9-45:20
+51            android:name="com.example.mp3retrowidget.WidgetConfigureActivity"
+51-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:38:13-52
+52            android:exported="true"
+52-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:39:13-36
+53            android:taskAffinity=""
+53-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:40:13-36
+54            android:theme="@style/Theme.MP3Retro.NoTitleBar" >
+54-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:41:13-61
+55            <intent-filter>
+55-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:42:13-44:29
+56                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+56-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:43:17-87
+56-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:43:25-84
+57            </intent-filter>
+58        </activity>
+59
+60        <!--
+61             Settings. Not a launcher entry itself: the alias below is, so it can
+62             be disabled to hide the app from the drawer.
+63        -->
+64        <activity
+64-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:49:9-52:48
+65            android:name="com.example.mp3retrowidget.MainActivity"
+65-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:50:13-41
+66            android:exported="true"
+66-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:51:13-36
+67            android:label="@string/app_name" /> <!-- Launcher entry (enabled/disabled by the "Ocultar app del cajón" switch) -->
+67-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:52:13-45
+68        <activity-alias
+68-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:55:9-66:26
+69            android:name="com.example.mp3retrowidget.LauncherAlias"
+69-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:56:13-42
+70            android:enabled="true"
+70-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:57:13-35
+71            android:exported="true"
+71-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:58:13-36
+72            android:icon="@drawable/ic_launcher"
+72-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:59:13-49
+73            android:label="@string/app_name"
+73-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:60:13-45
+74            android:targetActivity="com.example.mp3retrowidget.MainActivity" >
+74-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:61:13-51
+75            <intent-filter>
+75-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:62:13-65:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:63:17-69
+76-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:63:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:64:17-77
+78-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:64:27-74
+79            </intent-filter>
+80        </activity-alias>
+81
+82        <!-- Photo cropper -->
+83        <activity
+83-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:69:9-73:64
+84            android:name="com.example.mp3retrowidget.CropActivity"
+84-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:70:13-41
+85            android:exported="false"
+85-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:71:13-37
+86            android:screenOrientation="portrait"
+86-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:72:13-49
+87            android:theme="@style/Theme.MP3Retro.NoTitleBar" />
+87-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:73:13-61
+88
+89        <!-- Invisible trampoline used to open Spotify / YouTube Music from the widget -->
+90        <activity
+90-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:76:9-81:65
+91            android:name="com.example.mp3retrowidget.OpenMusicActivity"
+91-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:77:13-46
+92            android:excludeFromRecents="true"
+92-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:78:13-46
+93            android:exported="false"
+93-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:79:13-37
+94            android:noHistory="true"
+94-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:80:13-37
+95            android:theme="@style/Theme.MP3Retro.Translucent" />
+95-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:81:13-62
+96
+97        <!--
+98             Callback bridge for the active media session (needed to read the
+99             current song and to send exact transport commands). It is a bound
+100             system service, NOT a foreground playback service.
+101        -->
+102        <service
+102-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:86:9-94:19
+103            android:name="com.example.mp3retrowidget.MediaNotificationListener"
+103-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:87:13-54
+104            android:exported="true"
+104-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:88:13-36
+105            android:label="@string/app_name"
+105-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:89:13-45
+106            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+106-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:90:13-87
+107            <intent-filter>
+107-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:91:13-93:29
+108                <action android:name="android.service.notification.NotificationListenerService" />
+108-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:92:17-99
+108-->C:\Dev\MP3_Retro_Widget\app\src\main\AndroidManifest.xml:92:25-96
+109            </intent-filter>
+110        </service>
+111    </application>
+112
+113</manifest>

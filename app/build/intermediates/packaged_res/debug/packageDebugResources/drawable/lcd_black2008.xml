@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BLACK 2008: blue LCD. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#0B2C4C"
+                android:centerColor="#07203A"
+                android:endColor="#03152A" />
+            <stroke
+                android:width="1dp"
+                android:color="#02101E" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BRICK: pixel grid overlay for the green screen. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="128dp"
+    android:viewportWidth="64"
+    android:viewportHeight="128">
+    <path
+        android:pathData="M4,0V128M10,0V128M16,0V128M22,0V128M28,0V128M34,0V128M40,0V128M46,0V128M52,0V128M58,0V128M0,4H64M0,10H64M0,16H64M0,22H64M0,28H64M0,34H64M0,40H64M0,46H64M0,52H64M0,58H64M0,64H64M0,70H64M0,76H64M0,82H64M0,88H64M0,94H64M0,100H64M0,106H64M0,112H64M0,118H64M0,124H64"
+        android:strokeColor="#1F6BFF9E"
+        android:strokeWidth="1" />
+</vector>

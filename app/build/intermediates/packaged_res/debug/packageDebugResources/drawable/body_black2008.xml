@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BLACK 2008: matte black slab, thin grey edge. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="14dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#2E2E31"
+                android:centerColor="#17171A"
+                android:endColor="#0A0A0C" />
+            <stroke
+                android:width="1dp"
+                android:color="#3E3E44" />
+        </shape>
+    </item>
+    <item
+        android:bottom="3dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="11dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#28FFFFFF"
+                android:centerColor="#00FFFFFF"
+                android:endColor="#00000000" />
+        </shape>
+    </item>
+</layer-list>

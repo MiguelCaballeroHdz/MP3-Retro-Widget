@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Progress line of the ORANGE artwork: muted brown track, warm white fill. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="1dp" />
+            <solid android:color="#7A3A22" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="1dp" />
+                <solid android:color="#E8E8E2" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FLIP: hinge between the silver lid and the keypad half. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#8C939C"
+                android:centerColor="#4A5057"
+                android:endColor="#22262B" />
+        </shape>
+    </item>
+</layer-list>

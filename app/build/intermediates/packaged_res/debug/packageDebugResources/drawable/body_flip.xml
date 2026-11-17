@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FLIP: silver top shell over a black keypad half (the keypad pad drawable is
+     drawn by the control area). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#EEF1F5"
+                android:centerColor="#B7BEC7"
+                android:endColor="#7E858E" />
+            <stroke
+                android:width="1dp"
+                android:color="#5A6068" />
+        </shape>
+    </item>
+    <item
+        android:bottom="4dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#66FFFFFF"
+                android:centerColor="#00FFFFFF"
+                android:endColor="#33000000" />
+        </shape>
+    </item>
+</layer-list>

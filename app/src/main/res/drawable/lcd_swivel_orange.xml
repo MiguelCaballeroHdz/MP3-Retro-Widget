@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SWIVEL NARANJA: dark screen, red-orange characters. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#1A1210"
+                android:centerColor="#120E0D"
+                android:endColor="#080606" />
+            <stroke
+                android:width="1dp"
+                android:color="#2C1712" />
+        </shape>
+    </item>
+</layer-list>

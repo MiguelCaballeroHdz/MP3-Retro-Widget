@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared colours -->
+    <color name="lcd_text_dark">#3B1F00</color>
+    <color name="lcd_text_darkest">#333333</color>
+
+    <!-- Skin 1: silver metal + orange LCD -->
+    <color name="skin1_body">#C0C0C0</color>
+    <color name="skin1_lcd">#FFB74D</color>
+
+    <!-- Skin 2: navy blue metal + orange LCD -->
+    <color name="skin2_body">#2C3E50</color>
+    <color name="skin2_lcd">#FFB74D</color>
+
+    <!-- Skin 3: pink metal + yellow LCD -->
+    <color name="skin3_body">#F8BBD9</color>
+    <color name="skin3_lcd">#FFF176</color>
+
+    <!-- Skin 4: black plastic + green LCD -->
+    <color name="skin4_body">#212121</color>
+    <color name="skin4_lcd">#81C784</color>
+</resources>
